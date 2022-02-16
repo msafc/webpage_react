@@ -49,6 +49,7 @@
     cursor: pointer;
 }
 
+/* CHANGING THE SIGN BUTTON */
 .gpt3__navbar-sign button, .gpt3__navbar-menu_container button {
     padding : 0.5rem 1rem;
     color: #fff;
@@ -63,6 +64,7 @@
     cursor: pointer
 }
 
+/* CHANGING THE MENU SECTION THAT OPENS IN SMALLER SCREENS */
 .gpt3__navbar-menu {
     margin-left: 1rem; 
 
@@ -99,6 +101,7 @@
     display: none;
 }
 
+/* ADAPTING WHAT SHOWS IN DIFFERENT SCREEN SIZES */
 @media screen and (max-width: 1050px) {
     .gpt3__navbar-links_container {
         display: none;
